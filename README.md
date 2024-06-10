@@ -56,8 +56,7 @@ If you face issue while installing yarn using npm, then use alternative way:
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-```
-```sh
+
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 
@@ -101,7 +100,11 @@ cd simplysmart_mqtt_web/
 code .
 ```
 
-4.  Create .env file and add base url [REACT_APP_BASE_URL]
+4.  Create .env file and add base url []
+
+```sh
+REACT_APP_BASE_URL = "your_url_here"
+```
 
 5.  Install all the dependencies
 
