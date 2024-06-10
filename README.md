@@ -1,6 +1,6 @@
-### Project Setup
+# Project Setup
 
-# Installation of NVM
+## Installation of NVM
 
 NVM is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 `nvm` allows you to quickly install and use different versions of node via the command line.
@@ -39,9 +39,7 @@ To check current node version, use command:
 node --version
 ```
 
-## Project
-
-# yarn installation
+## yarn installation
 
 You need to install yarn to run this project.
 It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
@@ -74,7 +72,7 @@ yarn -v
 yarn install
 ```
 
-# Initializing repository
+## Initializing repository
 
 Firstly, Create an empty directory to clone the project.
 
