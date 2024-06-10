@@ -1,3 +1,5 @@
+*** note: nksjxwdghi
+
 # Project Setup
 
 ## Installation of NVM
