@@ -10,7 +10,7 @@ To install or update `nvm`, you should run the install script. To do that, you m
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-`OR`
+OR
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
