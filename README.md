@@ -2,10 +2,10 @@
 
 ## Installation of NVM
 
-NVM is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+`nvm` is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 `nvm` allows you to quickly install and use different versions of node via the command line.
 
-To install or update nvm, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
+To install or update `nvm`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -41,8 +41,8 @@ node --version
 
 ## yarn installation
 
-You need to install yarn to run this project.
-It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
+You need to install `yarn` to run this project.
+It is recommended to install `yarn` through the npm package manager, which comes bundled with Node.js when you install it on your system.
 
 Once you have npm installed you can run the following both to install and upgrade Yarn:
 
@@ -50,7 +50,7 @@ Once you have npm installed you can run the following both to install and upgrad
 npm i yarn -g
 ```
 
-If you face issue while installing yarn using npm, then use alternative way:
+If you face issue while installing `yarn` using npm, then use alternative way:
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -58,13 +58,13 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 
-Install and update yarn using command:
+Install and update `yarn` using command:
 
 ```sh
 sudo apt update && sudo apt install yarn
 ```
 
-Check that Yarn is installed by running:
+Check if `yarn` is installed by executing below command:
 
 ```sh
 yarn -v
@@ -76,7 +76,7 @@ yarn install
 
 Firstly, Create an empty directory to clone the project.
 
-1.  Change your Node Version to 16 using nvm command:
+1.  Change your Node Version to 16 using `nvm` command:
 
 ```sh
 nvm install 16
